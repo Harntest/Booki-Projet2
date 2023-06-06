@@ -233,7 +233,7 @@ aside {
   width: 100%;
   height: 220px;
   flex-direction: column;
-  flex: 1 1 250px;
+  flex: 1 1 30%;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -309,6 +309,7 @@ aside {
   display: flex;
   max-width: 383px;
   justify-content: center;
+  flex:1 1 30%;
 }
 
 .popular-card-img {
@@ -481,7 +482,8 @@ aside {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-  }
+    border-bottom: 3px solid grey;
+   }
 
   header nav a {
     display: flex;
