@@ -264,6 +264,7 @@ aside {
   margin: 0;
   padding-left: 0.8em;
   margin: 0.2em;
+  white-space: nowrap;
 }
 
 .location-card h3 {
@@ -314,8 +315,8 @@ aside {
 }
 
 .popular-card-img {
- width: 33%;
- height: 136px;
+ width: 40%;
+ height: 144px;
  border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
 }
